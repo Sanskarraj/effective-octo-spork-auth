@@ -1,0 +1,15 @@
+{
+  "name": "rc4-lib",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rc4_lib_bg.wasm",
+    "rc4_lib.js",
+    "rc4_lib.d.ts"
+  ],
+  "main": "rc4_lib.js",
+  "types": "rc4_lib.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
